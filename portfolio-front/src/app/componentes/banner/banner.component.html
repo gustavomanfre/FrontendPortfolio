@@ -1,0 +1,58 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#bodydiv{
+    background-color:#0a192f;
+    font-family:'Mulish', sans-serif;
+    margin: auto;
+    width:100%;
+
+}
+  /* Banner*/
+.fondo-banner{
+  background-size: 96%;
+  background-image: url(https://i.postimg.cc/yNmM8LtX/banner.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+}
+
+h1{
+  font-size: 80px;
+  font-weight: 600;
+  color: #e6f1ff;
+  display: inline;
+}
+
+h1:hover{
+  text-shadow: -1px -4px 4px #8892b0;
+}
+
+h2{
+  color: #64ffda;
+  font-size: 40px;
+  margin: 10px;
+}
+
+</style>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+  <header id="bodydiv">
+
+    <div class="row fondo-banner align-items-center">
+
+      <div class="text-center">
+        <h2 >Hola, mi nombre es:</h2>
+        <h1>{{persona.nombrePersona}} {{persona.apellidoPersona}}</h1>
+        <h2>{{persona.nombrePerfilTecnico}}</h2>
+      </div>
+
+    </div>
+  </header>
+
+<!--Fin Banner-->

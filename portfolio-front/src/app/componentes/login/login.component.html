@@ -1,0 +1,74 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  #formulario{
+      background-color:#0a192f;
+      font-family:'Mulish', sans-serif;
+      margin: auto;
+      width:100%;
+      color: aliceblue;
+      padding: 80px;
+  }
+
+ 
+</style>
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+<div id="formulario">
+  <section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card bg-dark text-white" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+  
+              <div class="mb-md-5 mt-md-4 pb-5">
+  
+                <h2 class="fw-bold mb-2 text-uppercase">Login</h2>
+                <p class="text-white-50 mb-5">Por favor, ingresar usuario y clave</p>
+  
+                <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+  
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg"
+                      [(ngModel)]="nombreUsuario" required />
+                    <label class="form-label" for="nombreUsuario">Usuario</label>
+                  </div>
+  
+                  <div class="form-outline form-white mb-4">
+                    <input type="password" id="password" name="password" class="form-control form-control-lg" [(ngModel)]="password"
+                      required />
+                    <label class="form-label" for="password">Password</label>
+                  </div>
+  
+                  <!-- <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p> -->
+  
+                  <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+  
+                </form>
+  
+              </div>
+  
+              <div>
+                <p class="mb-0">¿No tienes una cuenta? <a href="#!" class="text-white-50 fw-bold">Sign Up</a>
+                </p>
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</div>
+
+
+
+
+
+

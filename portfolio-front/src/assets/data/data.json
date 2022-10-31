@@ -1,0 +1,62 @@
+{
+    "namePersona": "Gustavo Manfredi",
+    "imagePerfil":"Url/perfil",
+    "nombrePerfilTecnico": "Desarrollador FullStack",
+    "descripcionPerfil":"Soy un ingeniero de software que se especializa en crear (y ocasionalmente diseñar) experiencias digitales excepcionales.",
+
+    "descargaCv":"Url/cv",
+    "aboutNombre":"DETERMINADO",
+    "aboutHabilidades":["Seguro","Dinámico","Determinado","Emprendedor","Perseverante","Enérgico"],
+    "aboutDescripcion":["","","",""],
+
+    "experiencia":[
+        {"tipoExperiencia":"ServicioTecnico","titulo": "QH TECNICA, Comercial.", "descripcioncargo": "Ventas y Mantenimiento de Equipos Informáticos","fecha":"| Noviembre 2015- Diciembre 2015."}
+    ],
+
+    "formacion":[
+        {"nombreInstitucion": "Escuela Capitan Daniel Manzotti","imageInstitucion":"/url/image","titulo": "Tecnico Electronico con Orientacion en Telecomunicaciones.","fecha":"| Noviembre 2015- Diciembre 2015."},
+        { "nombreInstitucion": "Universidad Tecnologica Nacional.","imageInstitucion":"/url/image","titulo": "Ingenieria en Sistemas de Informacion","fecha":"| Noviembre 2015- Diciembre 2015."}
+    ],
+
+    "proyectos":[{"nombreProyecto":"Proyectos Kotlin.","urlProyecto":"/url/Proyecto","urlImgProyecto":"url/image"},
+                 {"nombreProyecto":"Proyectos Java.","urlProyecto":"/url/Proyecto","urlImgProyecto":"url/image"},
+                 {"nombreProyecto":"Proyectos JavaScript.","urlProyecto":"/url/Proyecto","urlImgProyecto":"url/image"},
+                 {"nombreProyecto":"Proyectos GO.","urlProyecto":"/url/Proyecto","urlImgProyecto":"url/image"},
+                 {"nombreProyecto":"Proyectos AngularJs","urlProyecto":"/url/Proyecto","urlImgProyecto":"url/image"},
+                 {"nombreProyecto":"Proyectos Reactjs.","urlProyecto":"/url/Proyecto","urlImgProyecto":"url/image"},
+                 {"nombreProyecto":"Proyectos Spring Boot.","urlProyecto":"/url/Proyecto","urlImgProyecto":"url/image"},
+                 {"nombreProyecto":"Proyectos SQL.","urlProyecto":"/url/Proyecto","urlImgProyecto":"url/image"}
+    ],
+
+    "habilidades":["JavaScript", "Python", "Go", "Node.js", "AngularJs", "ReactJs", "Java", "C" ,"C++","Json"],
+
+    "redes":[{"urlRed":"urlLinkedin","fotoRed":"pathRed"},
+             {"urlRed":"urlGithub","fotoRed":"pathRed"},
+             {"urlRed":"urlcorreo","fotoRed":"pathRed"},
+             {"urlRed":"urlWhatsapp","fotoRed":"pathRed"}
+            ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

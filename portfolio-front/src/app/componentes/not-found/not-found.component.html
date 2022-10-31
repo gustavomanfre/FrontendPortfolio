@@ -1,0 +1,101 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wght@300;400;700&display=swap');
+
+body{
+  font-family: 'M PLUS Code Latin', sans-serif;
+  background-color: #0a192f;
+  width: 100%;
+  margin: auto;
+  padding: 100px;
+}
+
+h1{
+  color: #64ffda;
+  margin: auto;
+  width: 95%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+button{
+  width: 100%;
+  margin: auto;
+  display: inline;
+  background-color: #64ffda;
+  color: #0a192f;
+  font-family: 'M PLUS Code Latin', sans-serif;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+#contdiv{
+  border: 1px solid #64ffda ;
+  border-radius: 20px;
+  width: 100%;
+  padding: 20px;
+}
+
+#botonDiv{
+  margin: auto;
+  width: 50%;
+}
+
+@keyframes guion {
+  from {color: #64ffda;}
+  to {color: #0a192f;}
+}
+
+strong {
+  animation-name: guion;
+  color: #64ffda;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+}
+
+</style>
+
+<!---------------------------------------------------------------------------------------------------------->
+
+<body>
+
+  <div id="contdiv">
+    <h1>NOT FOUND <strong>_</strong> </h1>
+    <div id="botonDiv">
+      <button>Volver Inicio</button>
+    </div>
+  </div>
+
+
+
+<!--
+  CAMBIAR EL H1 EN EL HTML POR:
+    <h1> <strong>_</strong> </h1>
+
+
+  AGREGAR ESTE FUNCIONAMIENTO AL ARCHIVO TS:
+
+    <script>
+
+      let texto = "> PAGE NOT FOUND 404 _"
+      let titulo = document.querySelector('h1');
+      let i = 0;
+
+      titulo.innerHTML = ""
+      let intervalo = setInterval(()=>{
+
+        if(i < texto.length){
+          titulo.innerHTML += texto[i]
+          i++
+        }else if(titulo[i].style.color == '#64ffda'){
+            titulo[i].style.color = '#0a192f';
+          }else{
+            titulo[i].style.color = '#64ffda';
+          }
+        },150)
+
+    </script>
+-->
+
+
+
